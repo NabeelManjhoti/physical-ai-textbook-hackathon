@@ -84,16 +84,20 @@
 
 ### Functional Requirements
 
-- **FR-001**: System MUST [specific capability, e.g., "allow users to create accounts"]
-- **FR-002**: System MUST [specific capability, e.g., "validate email addresses"]  
-- **FR-003**: Users MUST be able to [key interaction, e.g., "reset their password"]
-- **FR-004**: System MUST [data requirement, e.g., "persist user preferences"]
-- **FR-005**: System MUST [behavior, e.g., "log all security events"]
+- **FR-001**: System MUST follow modular architecture with independent, reusable modules
+- **FR-002**: System MUST use Docusaurus as primary documentation platform with documentation-first approach
+- **FR-003**: System MUST implement TDD with Red-Green-Refactor cycle for all components
+- **FR-004**: System MUST be optimized for RAG (Retrieval-Augmented Generation) use cases
+- **FR-005**: System MUST expose well-defined RESTful APIs using FastAPI
+- **FR-006**: System MUST be containerized with Docker for deployment
+- **FR-007**: System MUST follow mobile-first design principles
+- **FR-008**: System MUST adhere to .md specifications with strict spec-driven development
+- **FR-009**: System MUST have modular and thoroughly documented code
 
 *Example of marking unclear requirements:*
 
-- **FR-006**: System MUST authenticate users via [NEEDS CLARIFICATION: auth method not specified - email/password, SSO, OAuth?]
-- **FR-007**: System MUST retain user data for [NEEDS CLARIFICATION: retention period not specified]
+- **FR-010**: System MUST authenticate users via [NEEDS CLARIFICATION: auth method not specified - email/password, SSO, OAuth?]
+- **FR-011**: System MUST retain user data for [NEEDS CLARIFICATION: retention period not specified]
 
 ### Key Entities *(include if feature involves data)*
 

@@ -64,10 +64,14 @@ Examples of foundational tasks (adjust based on your project):
 
 - [ ] T004 Setup database schema and migrations framework
 - [ ] T005 [P] Implement authentication/authorization framework
-- [ ] T006 [P] Setup API routing and middleware structure
+- [ ] T006 [P] Setup API routing and middleware structure with FastAPI
 - [ ] T007 Create base models/entities that all stories depend on
 - [ ] T008 Configure error handling and logging infrastructure
 - [ ] T009 Setup environment configuration management
+- [ ] T010 [P] Configure Docker containerization for services
+- [ ] T011 Setup Docusaurus documentation framework
+- [ ] T012 [P] Configure mobile-first responsive design with TailwindCSS
+- [ ] T013 Setup RAG-optimized content processing infrastructure
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 

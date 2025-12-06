@@ -31,7 +31,16 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+This plan must comply with the Physical AI & Humanoid Robotics Textbook Constitution:
+- Modular Architecture: Components designed as independent, reusable modules
+- Documentation-First Approach: Docusaurus as primary documentation platform
+- Test-First: TDD mandatory with Red-Green-Refactor cycle
+- RAG-Optimized Architecture: Content processing designed for RAG use cases
+- API-First Backend Design: FastAPI with well-defined RESTful APIs
+- Container-First Deployment: Docker containerization required
+- Mobile-First Design: Mobile devices as primary target
+- Spec-Driven Development: Strict adherence to .md specifications
+- Code Modularity and Documentation: Thoroughly documented modular code
 
 ## Project Structure
 
