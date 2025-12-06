@@ -22,17 +22,17 @@ git clone <repository-url>
 cd physical-ai-textbook
 
 # Create environment file
-cp .env.example .env
+cp .env .env.example  # if .env.example exists
 # Edit .env and add your OpenAI API key
 ```
 
 ### 2. Start Infrastructure
 ```bash
-# Start Qdrant and other services
+# Start Qdrant and backend services using Docker Compose
 docker-compose up -d
 ```
 
-### 3. Set Up Backend
+### 3. Set Up Backend (Alternative to Docker approach)
 ```bash
 # Navigate to backend directory
 cd backend
@@ -54,10 +54,10 @@ uvicorn src.main:app --reload
 cd frontend
 
 # Install dependencies
-npm install
+yarn install  # or npm install if you prefer npm
 
 # Start development server
-npm start
+yarn start
 ```
 
 ## Ingest Textbook Content
